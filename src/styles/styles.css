@@ -1,0 +1,184 @@
+body {
+    background-color: #f3f7fa;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    color: #4a4a4a;
+    background: #f3f7fa;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, Helvetica,
+      sans-serif;
+  }
+  
+  .appbox {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  
+  .mainApp {
+    display: flex;
+    margin: -10px;
+  }
+  
+  .allTickets {
+    padding: 10px;
+    flex: 1 0 0;
+  }
+  
+  .ticketsList {
+    width: 504px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .mainApp {
+      display: flex;
+      flex-direction: column;
+      margin: -10px;
+    }
+  
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+  
+    .tabsbutLeft {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+      border: 1px solid #dfe5ec;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 0px;
+      background: white;
+      padding: 15px;
+      flex: 1 0 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    .isActiveTabsbutLeft {
+      background: #2196f3;
+      color: white;
+      border: none;
+    }
+  
+    .tabsbutRight {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+      border: 1px solid #dfe5ec;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 0px;
+      background: white;
+      padding: 15px;
+      flex: 1 0 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    .isActiveTabsbutRight {
+      background: #2196f3;
+      color: white;
+      border: none;
+    }
+  
+    .filterName {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 12px;
+      text-transform: uppercase;
+      padding: 20px 20px 10px 20px;
+      color: #4a4a4a;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .mainApp {
+      display: flex;
+      flex-direction: column;
+      margin: -10px;
+    }
+  
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+  
+    .tabsbutLeft {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+      border: 1px solid #dfe5ec;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 0px;
+      background: white;
+      padding: 15px;
+      flex: 1 0 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    .isActiveTabsbutLeft {
+      background: #2196f3;
+      color: white;
+      border: none;
+    }
+  
+    .tabsbutRight {
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+      border: 1px solid #dfe5ec;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 0px;
+      background: white;
+      padding: 15px;
+      flex: 1 0 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    .isActiveTabsbutRight {
+      background: #2196f3;
+      color: white;
+      border: none;
+    }
+  
+    .ticketsList {
+      width: 300px;
+    }
+  
+    .filterName {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 12px;
+      text-transform: uppercase;
+      padding: 20px 20px 10px 20px;
+      color: #4a4a4a;
+      text-align: center;
+    }
+  
+    .content {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+    }
+  }

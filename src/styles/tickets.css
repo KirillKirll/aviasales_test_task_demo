@@ -1,0 +1,94 @@
+.ticketBox {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .ticket {
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  
+  .price {
+    flex: 1 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2196f3;
+  }
+  
+  .companyLogoBox {
+    flex: 1 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    white-space: nowrap;
+    text-align: right;
+  }
+  
+  .companyLogo {
+    margin-right: 30px;
+  }
+  
+  .ticketInfo {
+    padding-top: 10px;
+  }
+  
+  .content {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .route {
+    flex: 1 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    white-space: nowrap;
+  }
+  
+  .content-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #a0b0b9;
+  }
+  
+  .info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  
+  .time {
+    flex: 1 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+  
+  .stops {
+    flex: 1 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+  
+  .NoTickets {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+  }

@@ -1,0 +1,7 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+    align-items: center;
+  }
+  
