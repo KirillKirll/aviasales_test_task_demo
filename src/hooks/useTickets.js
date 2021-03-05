@@ -4,7 +4,8 @@ import { sortFromMinToMaxPrice } from "../utils";
 export const useTickets = () => {
   const [tickets, setTickets] = useState([]);
   const [filtered, setFiltered] = useState([]);
-
+  const [error, setError] = useState();
+  
   useEffect(() => {
     const fetchTickets = async () => {
       try {
@@ -18,11 +19,14 @@ export const useTickets = () => {
 
         setTickets(tickets.sort(sortFromMinToMaxPrice));
         setFiltered(tickets);
-      } catch (error) {}
+      } catch (error) {
+      console.log({ error });
+        setError(error);
+      }
     };
 
     fetchTickets();
   }, []);
 
-  return { tickets, filtered, setFiltered };
+  return { tickets, filtered, setFiltered, error };
 };
