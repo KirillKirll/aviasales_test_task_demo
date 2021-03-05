@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { NoFilter } from "./NoFilter.js";
 import { TicketHeader } from "./TicketHeader.js";
 import { Segment } from "./Segment.js";
+import { Error } from "../Error.js";
 
 export const Tickets = ({ filtered }) => {
   const [count, setCount] = useState({
@@ -32,6 +33,7 @@ export const Tickets = ({ filtered }) => {
       ) : (
         <NoFilter />
       )}
+        {error ? <Error /> : null}
     </div>
   );
 };
