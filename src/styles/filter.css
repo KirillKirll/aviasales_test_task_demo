@@ -92,3 +92,9 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+  @media only screen and (max-width: 900px) {
+  .filterName {
+    text-align: center;
+  }
+}
