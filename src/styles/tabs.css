@@ -49,3 +49,20 @@
     border: none;
     outline: none;
   }
+
+  @media only screen and (max-width: 900px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tabsbutLeft {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .tabsbutRight {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 0px;
+  }
+}
